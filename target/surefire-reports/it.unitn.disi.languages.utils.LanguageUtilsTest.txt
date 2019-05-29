@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: it.unitn.disi.languages.utils.LanguageUtilsTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.058 sec <<< FAILURE! - in it.unitn.disi.languages.utils.LanguageUtilsTest
+getLanguageCodes(it.unitn.disi.languages.utils.LanguageUtilsTest)  Time elapsed: 0.007 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Invalid language name: Bislama
+	at it.unitn.disi.languages.utils.LanguageUtils.getLanguageCodes(LanguageUtils.java:123)
+	at it.unitn.disi.languages.utils.LanguageUtilsTest.getLanguageCodes(LanguageUtilsTest.java:29)
+
+testReadTable(it.unitn.disi.languages.utils.LanguageUtilsTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.IllegalArgumentException: invalid language code
+	at it.unitn.disi.languages.utils.LanguageUtils.getISO2Code(LanguageUtils.java:85)
+	at it.unitn.disi.languages.utils.LanguageUtilsTest.testReadTable(LanguageUtilsTest.java:11)
+
