@@ -1,2 +1,4 @@
 language: java 
 script: mvn test
+deploy:
+  skip_cleanup: true
