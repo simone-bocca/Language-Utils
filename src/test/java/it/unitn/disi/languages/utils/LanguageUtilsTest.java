@@ -39,7 +39,7 @@ public class LanguageUtilsTest {
 
     @Test
     public void getAllLanguagesAvaliable() {
-        for (String code: langUtils.getAllLanguagesAvaliable()) System.out.println(code);
+        //for (String code: langUtils.getAllLanguagesAvaliable()) System.out.println(code);
         System.out.println("#:"+langUtils.getAllLanguagesAvaliable().length);
     }
 
