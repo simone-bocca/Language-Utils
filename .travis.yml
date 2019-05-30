@@ -1,4 +1,8 @@
 language: java 
 script: mvn test
 deploy:
+  provider: releases
+  api_key: 
+    secure: "b6f64215822edc40caec16655c1e87781d7e8d33"
+  file: "languageUtilsRelease"
   skip_cleanup: true
