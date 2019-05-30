@@ -3,6 +3,6 @@ script: mvn test
 deploy:
   provider: releases
   api_key: 
-    secure: "b6f64215822edc40caec16655c1e87781d7e8d33"
+    secure: "64fba35b9a04368a6d65b763c8a3db225e40d8a2"
   file: "languageUtilsRelease"
   skip_cleanup: true
