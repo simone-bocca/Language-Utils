@@ -6,7 +6,6 @@ deploy:
   api_key: 
     secure: "64fba35b9a04368a6d65b763c8a3db225e40d8a2"
   skip_cleanup: true
-
   on:
     branches:
       only:
