@@ -45,7 +45,8 @@ public class LanguageUtilsTest {
 
     @Test
     public void getAllLanguagesAvaliableString() {
-        System.out.println(langUtils.getAllLanguagesAvaliableString());
+        assertNotNull(langUtils.getAllLanguagesAvaliableString());
+        //System.out.println(langUtils.getAllLanguagesAvaliableString());
     }
 
     @Test
