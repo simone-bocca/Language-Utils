@@ -17,6 +17,12 @@
         </license>
     </licenses>
 
+    <scm>
+        <connection>https://github.com/simone-bocca/Language-Utils.git</connection>
+        <developerConnection>https://github.com/simone-bocca/Language-Utils.git</developerConnection>
+        <url>https://github.com/simone-bocca/Language-Utils</url>
+    </scm>
+
 
     <build>
         <plugins>
