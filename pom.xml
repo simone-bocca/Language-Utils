@@ -7,6 +7,17 @@
     <groupId>it.unitn.disi</groupId>
     <artifactId>languages-utils</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <name>language-utils</name>
+    <description>Component for the management of 3-letters language codes</description>
+    <url>https://github.com/simone-bocca/Language-Utils</url>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+        </license>
+    </licenses>
+
+
     <build>
         <plugins>
             <plugin>
